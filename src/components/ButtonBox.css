@@ -1,0 +1,63 @@
+.button-box{
+    border: 1px solid transparent;
+    height: 70%;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    border-radius: 7px;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #131a26;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    color: white;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.operators button{
+    border: 1px solid lightgray;
+    height:56px;
+    background-color: #131a26;
+    text-align: center;
+    color: #eee;
+    width: 80px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.operators button:hover{
+    opacity: 0.9;
+}
+.digits{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: white;
+    
+    
+}
+.digits button{
+    background-color: #131a26;
+    border: 1px solid lightgray;
+    color: #eee;
+    font-size: 30px;
+
+    width: 90px;
+}
+.delete{
+    background-color: red;
+    font-weight: 600;
+    height: 60px;
+}
+.equals{
+    background-color: green;
+    font-weight: 600;
+}
+.reset{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
